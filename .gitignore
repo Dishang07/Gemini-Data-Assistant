@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# MyPy, Coverage, and pytest
+.mypy_cache/
+.coverage
+.pytest_cache/
+
+# FastAPI auto reload files
+*.reload
+
+# Your SQLite or temporary files
+*.db
+*.sqlite3
+*.sqlite
+*.bak
+*.tmp
+
+# Streamlit (if used)
+.streamlit/
