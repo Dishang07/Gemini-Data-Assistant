@@ -1,6 +1,6 @@
+"""
 import pandas as pd
 import duckdb
-"""
 def run_sql_query(sql: str):
     df = pd.read_excel("backend/personality_datasert.xlsx")
 
@@ -27,7 +27,7 @@ def run_sql_query(query: str):
 
         # Connect to DuckDB and register the DataFrame with the correct table name
         con = duckdb.connect()
-        con.register("personality", df)  # ✅ Register as 'personality'
+        con.register("personality", df)  # this is the sheet name in the dataset
 
         # Execute the query and return result
         result = con.execute(query).fetchall()

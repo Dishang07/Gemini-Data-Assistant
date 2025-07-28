@@ -136,7 +136,6 @@ model = genai.GenerativeModel(
     system_instruction=SYSTEM_INSTRUCTION
 )
 
-# ✅ Main function with tool execution
 import ast
 import re
 
